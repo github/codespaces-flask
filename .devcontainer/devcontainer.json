@@ -1,4 +1,21 @@
 {
+  "postAttachCommand": {
+    "server": "flask --debug run",
+  },
+
+  "portsAttributes": {
+    "5000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+
+  "customizations": {
+    "codespaces": {
+      "openFiles": ["app.py"]
+    }
+  },
   "onCreateCommand": "pip install -r requirements.txt",
-  "postCreateCommand": ""
+  "postCreateCommand": "",
+  "hostRequirements": {"cpus": 4}
 }
