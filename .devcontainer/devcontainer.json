@@ -13,12 +13,14 @@
   "customizations": {
     "codespaces": {
       "openFiles": ["app.py"]
+    },
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
     }
   },
   "onCreateCommand": "pip install -r requirements.txt",
   "postCreateCommand": "",
-  "hostRequirements": {"cpus": 4},
-  "extensions": [
-    "ms-python.python"
-  ]
+  "hostRequirements": {"cpus": 4}
 }
