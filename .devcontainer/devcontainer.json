@@ -17,5 +17,8 @@
   },
   "onCreateCommand": "pip install -r requirements.txt",
   "postCreateCommand": "",
-  "hostRequirements": {"cpus": 4}
+  "hostRequirements": {"cpus": 4},
+  "extensions": [
+    "ms-python.python"
+  ]
 }
