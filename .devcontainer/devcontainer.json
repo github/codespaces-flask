@@ -1,26 +1,29 @@
 {
-  "postAttachCommand": {
-    "server": "flask --debug run",
+  "hostRequirements": {
+    "cpus": 4
   },
-
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "pip install -r requirements.txt",
+  "postCreateCommand": "",
+  "postAttachCommand": {
+    "server": "flask --debug run"
+  },
   "portsAttributes": {
     "5000": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
   },
-
   "customizations": {
     "codespaces": {
-      "openFiles": ["app.py"]
+      "openFiles": [
+        "app.py"
+      ]
     },
     "vscode": {
       "extensions": [
         "ms-python.python"
       ]
     }
-  },
-  "onCreateCommand": "pip install -r requirements.txt",
-  "postCreateCommand": "",
-  "hostRequirements": {"cpus": 4}
+  }
 }
