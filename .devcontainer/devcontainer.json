@@ -10,7 +10,7 @@
     "server": "flask --debug run"
   },
   "portsAttributes": {
-    "5000": {
+    "8545": {
       "label": "Application",
       "onAutoForward": "openPreview"
     }
@@ -27,5 +27,5 @@
       ]
     }
   },
-  "forwardPorts": [5000]
+  "forwardPorts": [8545]
 }
