@@ -1,15 +1,76 @@
 body {
+
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+        monospace;
     margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-        "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-        sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+    background-color: #282c34;
+    color: white;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
         monospace;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60fr 100fr 100fr;
+    grid-template-rows: 200fr 1fr 150fr;
+    
+}
+
+.cell {
+    border: 1px solid black;
+
+}
+
+.span_cell {
+    border: 1px solid black;
+    grid-column: span 3;
+}
+
+.wrapper {
+    display: grid;
+
+    gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+
+.local {
+    
+}
+
+.input_main {
+    height: 50px;
+}
+
+.output_main {
+
+}
+
+.list_local {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start; /* Added property */
+    margin: 0px;
+    padding: 0px
+}
+
+.list_item_local {
+    font-size: smaller;
+    margin: 0px;
+    padding-bottom: 6px;
+    list-style: none;
+    list-style-type: none ;
+    width: 100%;
+    height: 100%;
 }
 
 .App {
