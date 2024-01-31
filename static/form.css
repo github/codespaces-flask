@@ -1,0 +1,119 @@
+body {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+    margin: 0;
+    background-color: #282c34;
+    color: white;
+}
+
+h1 {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr ;
+
+}
+
+.cell {
+    border: 1px solid black;
+    grid-column: 2;
+
+    text-align: left;
+
+}
+
+label {
+    text-align: left; /* Added property */
+    grid-column: 1;
+    
+}
+
+input {
+    text-align: right; /* Added property */
+    grid-column: 2;
+}
+    
+
+
+.span_cell {
+    border: 1px solid black;
+    grid-column: span 3;
+}
+
+.wrapper {
+    display: grid;
+
+    gap: 10px;
+    grid-auto-rows: minmax(40px, auto);
+  }
+
+.local {
+    
+}
+
+.input_main {
+    height: 50px;
+}
+
+.output_main {
+
+}
+
+.list_local {
+    width: 100%;
+    height: 100%;
+    align-items: flex-start; /* Added property */
+    margin: 0px;
+    padding: 0px
+}
+
+.list_item_local {
+    font-size: smaller;
+    margin: 0px;
+    padding-bottom: 6px;
+    list-style: none;
+    list-style-type: none ;
+    width: 100%;
+    height: 100%;
+}
+
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.heart {
+    color: #ff0000;
+}
+
+.small {
+    font-size: 0.75rem;
+}

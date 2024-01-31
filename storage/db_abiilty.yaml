@@ -1,0 +1,45 @@
+db_ability:
+- name: "the_fastest_way"
+  displayName: "the fastest way...."
+  description: "points your nav in the direction of a heart with specified name, probably."
+  requires:
+  - connection
+  - navigation
+  domain: direction
+  domain_value: 0...360
+- name: "what_we_got_here"
+  displayName: "what we got here..."
+  description: "is the potential to communicate, or is polenta flavored chocolate... someone decides"
+  requires:
+  - vibration
+  - communication
+  - energy
+  domain: score
+  domain_value: 1..1000
+- name: "pump_up_the_volume"
+  displayName: "pump up the volume"
+  description: "adjust the amount of energy from a source to destination(s)"
+  requires:
+  - connection
+  - energy
+  domain: volume
+  domain_range: 1...1000
+  - name: "pump_up_the_volume"
+  displayName: "pump up the volume"
+  description: "spend energy to adjust the frequnency of energy from a source to destination"
+  requires:
+  - vibration
+  - connection
+  - energy
+  domain: hertz
+  domain_value: 10...100000
+- name: "i_accept_your_tribute"
+  displayName: "I accept your tribute"
+  description: "soak energy from all sources within range"
+  requires:
+  - vibration
+  - energy
+  domain: centimeters
+  domain_value: 3...3000
+  
+  

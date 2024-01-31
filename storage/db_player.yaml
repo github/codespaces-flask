@@ -1,0 +1,109 @@
+db_player:
+- name: "EXAMPLE-PLAYER"
+  awareness:
+    # these are rolled 1-10 on player creation
+    # heart
+    connection: 1
+    communication: 1
+    # spirit
+    energy: 1
+    vibration: 1
+    # soul
+    environment: 1
+    perception: 1
+    # mind
+    navigation: 1
+    automation: 1
+  items:
+  - name: "mechanical guts"
+    quality: 4000
+  - name: "heart shaped box"
+    quality: 6000
+  - name: "calculator watch"
+    quality: 5000
+  body:
+    #location is encoded: (mapxyz.locxyz) mmxxyyzz.llxxyyzz
+    location: 1010101.01010101
+    parts:
+    - type: "heart"
+      belongsTo: "sky"
+      found: false,
+      gameName: "hildy"
+      givenName: "<not_yet_found>"
+    - type: "mind"
+      belongsTo: "sky"
+      found: false,
+      gameName: "marigold"
+    - type: "spirit"
+      belongsTo: "sky"
+      found: false,
+      gameName: "blue"
+      givenName: "<not_yet_found>"
+    - type: "soul"
+      belongsTo: "sky"
+      found: false,
+      gameName: "helen"
+      givenName: "<not_yet_found>"
+- name: "joshua"
+  awareness:
+    # these are rolled 1-18 on player creation
+    connection: 18
+    communication: 18
+    energy: 18
+    vibration: 18
+    environment: 18
+    perception: 18
+    navigation: 18
+    automation: 18
+  items:
+  - name: "calculator watch"
+    quality: 1000
+  - name: "spirit shaper"
+    quality: 10000 
+  body:
+    location:
+      x: 11
+      y: 13
+      z: 1
+    parts:
+    - type: "heart"
+      belongsTo: "josh"
+      found: true,
+      onLoan: false;
+      onLoanTo: ""
+      gameName: "whoknewvoodoo"
+      givenName: "whoknewvoodoo"
+      intent: "stay with josh and out of trouble"
+    - type: "mind"
+      belongsTo: "josh"
+      found: true,
+      onLoan: false;
+      onLoanTo: ""
+      gameName: "zedskee"
+      givenName: "zedskee"
+      memory_locker:
+        intents:
+          "stay with josh and out of trouble"
+        dreams:
+          "all"          
+        hopes:
+          "all"
+        ideas:
+          "all"  
+    - type: "spirit"
+      belongsTo: "josh"
+      found: true,
+      onLoan: false;
+      onLoanTo: ""
+      gameName: "through_the_door"
+      givenName: "ttd"
+      intent: "ensconse until it blows over"
+    - type: "soul"
+      belongsTo: "josh"
+      found: true,
+      onLoan: false;
+      onLoanTo: ""
+      gameName: "wilhelm"
+      givenName: "wilhelm"
+      intent: "stay with josh and out of trouble"
+  SIGNGAURE: usr/josh.sig.asc

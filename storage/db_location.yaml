@@ -1,0 +1,8 @@
+db_location:
+- name: "josh's exotic molecule emphorium"
+  coordinates:
+    x: 11
+    y: 13
+    z: 1
+  energy:
+    type: "excellent"

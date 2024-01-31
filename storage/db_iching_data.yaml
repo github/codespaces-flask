@@ -1,0 +1,1232 @@
+trigrams:
+- number: 1
+  names:
+  - Force
+  - The Creative
+  chineseName: 乾
+  pinyinName: qián
+  character: "☰"
+  attribute: strong
+  images:
+  - heaven
+  chineseImage: 天
+  pinyinImage: tiān
+  familyRelationship: father
+  binary: '111'
+  lines:
+  - 1
+  - 1
+  - 1
+- number: 2
+  names:
+  - Field
+  - The Receptive
+  chineseName: 坤
+  pinyinName: kūn
+  character: "☷"
+  attribute: devoted, yielding
+  images:
+  - earth
+  chineseImage: 地
+  pinyinImage: dì
+  familyRelationship: mother
+  binary: '000'
+  lines:
+  - 0
+  - 0
+  - 0
+- number: 3
+  names:
+  - Shake
+  - The Arousing
+  chineseName: 震
+  pinyinName: zhèn
+  character: "☳"
+  attribute: inciting movement
+  images:
+  - thunder
+  chineseImage: 雷
+  pinyinImage: léi
+  familyRelationship: first son
+  binary: '001'
+  lines:
+  - 1
+  - 0
+  - 0
+- number: 4
+  names:
+  - Gorge
+  - The Abysmal
+  chineseName: 坎
+  pinyinName: kǎn
+  character: "☵"
+  attribute: dangerous
+  images:
+  - water
+  chineseImage: 水
+  pinyinImage: shuǐ
+  familyRelationship: second son
+  binary: '010'
+  lines:
+  - 0
+  - 1
+  - 0
+- number: 5
+  names:
+  - Bound
+  - Keeping Still
+  chineseName: 艮
+  pinyinName: gèn
+  character: "☶"
+  attribute: resting
+  images:
+  - mountain
+  chineseImage: 山
+  pinyinImage: shān
+  familyRelationship: third son
+  binary: '100'
+  lines:
+  - 0
+  - 0
+  - 1
+- number: 6
+  names:
+  - Ground
+  - The Gentle
+  chineseName: 巽
+  pinyinName: xùn
+  character: "☴"
+  attribute: penetrating
+  images:
+  - wind
+  chineseImage: 風
+  pinyinImage: fēng
+  familyRelationship: first daughter
+  binary: '110'
+  lines:
+  - 0
+  - 1
+  - 1
+- number: 7
+  names:
+  - Radiance
+  - The Clinging
+  chineseName: 離
+  pinyinName: lí
+  character: "☲"
+  attribute: light-giving
+  images:
+  - fire
+  chineseImage: 火
+  pinyinImage: huǒ
+  familyRelationship: second daughter
+  binary: '101'
+  lines:
+  - 1
+  - 0
+  - 1
+- number: 8
+  names:
+  - Open
+  - The Joyous
+  chineseName: 兌
+  pinyinName: duì
+  character: "☱"
+  attribute: joyful
+  images:
+  - swamp
+  chineseImage: 澤
+  pinyinImage: zé
+  familyRelationship: third daughter
+  binary: '011'
+  lines:
+  - 1
+  - 1
+  - 0
+hexagrams:
+- number: 1
+  names:
+  - Force
+  - The Creative
+  chineseName: 乾
+  pinyinName: qián
+  character: "䷀"
+  topTrigram: 1
+  bottomTrigram: 1
+  binary: '111111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+- number: 2
+  names:
+  - Field
+  - The Receptive
+  chineseName: 坤
+  pinyinName: kūn
+  character: "䷁"
+  topTrigram: 2
+  bottomTrigram: 2
+  binary: '000000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- number: 3
+  names:
+  - Sprouting
+  - Difficulty at the Beginning
+  chineseName: 屯
+  pinyinName: zhūn
+  character: "䷂"
+  topTrigram: 4
+  bottomTrigram: 3
+  binary: '010001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+- number: 4
+  names:
+  - Enveloping
+  - Youthful Folly
+  chineseName: 蒙
+  pinyinName: méng
+  character: "䷃"
+  topTrigram: 5
+  bottomTrigram: 4
+  binary: '100010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+- number: 5
+  names:
+  - Attending
+  - Waiting
+  chineseName: 需
+  pinyinName: xū
+  character: "䷄"
+  topTrigram: 4
+  bottomTrigram: 1
+  binary: '010111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 0
+- number: 6
+  names:
+  - Arguing
+  - Conflict
+  chineseName: 訟
+  pinyinName: sòng
+  character: "䷅"
+  topTrigram: 1
+  bottomTrigram: 4
+  binary: '111010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+- number: 7
+  names:
+  - Leading
+  - The Army
+  chineseName: 師
+  pinyinName: shī
+  character: "䷆"
+  topTrigram: 2
+  bottomTrigram: 4
+  binary: '000010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- number: 8
+  names:
+  - Grouping
+  - Holding Together [Union]
+  chineseName: 比
+  pinyinName: bǐ
+  character: "䷇"
+  topTrigram: 4
+  bottomTrigram: 2
+  binary: '010000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+- number: 9
+  names:
+  - Small Accumulating
+  - The Taming Power of the Small
+  chineseName: 小畜
+  pinyinName: xiǎo chù
+  character: "䷈"
+  topTrigram: 6
+  bottomTrigram: 1
+  binary: '110111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+- number: 10
+  names:
+  - Treading
+  - Conduct
+  chineseName: 履
+  pinyinName: lǚ
+  character: "䷉"
+  topTrigram: 1
+  bottomTrigram: 8
+  binary: '111011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+- number: 11
+  names:
+  - Pervading
+  - Peace
+  chineseName: 泰
+  pinyinName: tài
+  character: "䷊"
+  topTrigram: 2
+  bottomTrigram: 1
+  binary: '000111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+- number: 12
+  names:
+  - Obstruction
+  - Standstill (Stagnation)
+  chineseName: 否
+  pinyinName: pǐ
+  character: "䷋"
+  topTrigram: 1
+  bottomTrigram: 2
+  binary: '111000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+- number: 13
+  names:
+  - Concording People
+  - Fellowship with Men
+  chineseName: 同人
+  pinyinName: tóng rén
+  character: "䷌"
+  topTrigram: 1
+  bottomTrigram: 7
+  binary: '111101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+- number: 14
+  names:
+  - Great Possessing
+  - Possession in Great Measure
+  chineseName: 大有
+  pinyinName: dà yǒu
+  character: "䷍"
+  topTrigram: 7
+  bottomTrigram: 1
+  binary: '101111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+- number: 15
+  names:
+  - Humbling
+  - Modesty
+  chineseName: 謙
+  pinyinName: qiān
+  character: "䷎"
+  topTrigram: 2
+  bottomTrigram: 5
+  binary: '000100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+- number: 16
+  names:
+  - Providing-For
+  - Enthusiasm
+  chineseName: 豫
+  pinyinName: yù
+  character: "䷏"
+  topTrigram: 3
+  bottomTrigram: 2
+  binary: '001000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+- number: 17
+  names:
+  - Following
+  chineseName: 隨
+  pinyinName: suí
+  character: "䷐"
+  topTrigram: 8
+  bottomTrigram: 3
+  binary: '011001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 1
+  - 1
+  - 0
+- number: 18
+  names:
+  - Correcting
+  - Work on What Has Been Spoiled [Decay]
+  chineseName: 蠱
+  pinyinName: gǔ
+  character: "䷑"
+  topTrigram: 5
+  bottomTrigram: 6
+  binary: '100110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 0
+  - 0
+  - 1
+- number: 19
+  names:
+  - Nearing
+  - Approach
+  chineseName: 臨
+  pinyinName: lín
+  character: "䷒"
+  topTrigram: 2
+  bottomTrigram: 8
+  binary: '000011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+- number: 20
+  names:
+  - Viewing
+  - Contemplation (View)
+  chineseName: 觀
+  pinyinName: guān
+  character: "䷓"
+  topTrigram: 6
+  bottomTrigram: 2
+  binary: '110000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+- number: 21
+  names:
+  - Gnawing Bite
+  - Biting Through
+  chineseName: 噬嗑
+  pinyinName: shì kè
+  character: "䷔"
+  topTrigram: 7
+  bottomTrigram: 3
+  binary: '101001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 1
+  - 0
+  - 1
+- number: 22
+  names:
+  - Adorning
+  - Grace
+  chineseName: 賁
+  pinyinName: bì
+  character: "䷕"
+  topTrigram: 5
+  bottomTrigram: 7
+  binary: '100101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 0
+  - 0
+  - 1
+- number: 23
+  names:
+  - Stripping
+  - Splitting Apart
+  chineseName: 剝
+  pinyinName: bō
+  character: "䷖"
+  topTrigram: 5
+  bottomTrigram: 2
+  binary: '100000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+- number: 24
+  names:
+  - Returning
+  - Return (The Turning Point)
+  chineseName: 復
+  pinyinName: fù
+  character: "䷗"
+  topTrigram: 2
+  bottomTrigram: 3
+  binary: '000001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 0
+- number: 25
+  names:
+  - Without Embroiling
+  - Innocence (The Unexpected)
+  chineseName: 無妄
+  pinyinName: wú wàng
+  character: "䷘"
+  topTrigram: 1
+  bottomTrigram: 3
+  binary: '111001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+- number: 26
+  names:
+  - Great Accumulating
+  - The Taming Power of the Great
+  chineseName: 大畜
+  pinyinName: dà chù
+  character: "䷙"
+  topTrigram: 5
+  bottomTrigram: 1
+  binary: '100111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+  - 1
+- number: 27
+  names:
+  - Swallowing
+  - The Corners of the Mouth (Providing Nourishment)
+  chineseName: 頤
+  pinyinName: yí
+  character: "䷚"
+  topTrigram: 5
+  bottomTrigram: 3
+  binary: '100001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 0
+  - 1
+- number: 28
+  names:
+  - Great Exceeding
+  - Preponderance of the Great
+  chineseName: 大過
+  pinyinName: dà guò
+  character: "䷛"
+  topTrigram: 8
+  bottomTrigram: 6
+  binary: '011110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+- number: 29
+  names:
+  - Gorge
+  - The Abysmal (Water)
+  chineseName: 坎
+  pinyinName: kǎn
+  character: "䷜"
+  topTrigram: 4
+  bottomTrigram: 4
+  binary: '010010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 0
+  - 1
+  - 0
+- number: 30
+  names:
+  - Radiance
+  - The Clinging, Fire
+  chineseName: 離
+  pinyinName: lí
+  character: "䷝"
+  topTrigram: 7
+  bottomTrigram: 7
+  binary: '101101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+- number: 31
+  names:
+  - Conjoining
+  - Influence (Wooing)
+  chineseName: 咸
+  pinyinName: xián
+  character: "䷞"
+  topTrigram: 8
+  bottomTrigram: 5
+  binary: '011100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+- number: 32
+  names:
+  - Persevering
+  - Duration
+  chineseName: 恆
+  pinyinName: héng
+  character: "䷟"
+  topTrigram: 3
+  bottomTrigram: 6
+  binary: '001110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+- number: 33
+  names:
+  - Retiring
+  - Retreat
+  chineseName: 遯
+  pinyinName: dùn
+  character: "䷠"
+  topTrigram: 1
+  bottomTrigram: 5
+  binary: '111100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+- number: 34
+  names:
+  - Great Invigorating
+  - The Power of the Great
+  chineseName: 大壯
+  pinyinName: dà zhuàng
+  character: "䷡"
+  topTrigram: 3
+  bottomTrigram: 1
+  binary: '001111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+  - 0
+- number: 35
+  names:
+  - Prospering
+  - Progress
+  chineseName: 晉
+  pinyinName: jìn
+  character: "䷢"
+  topTrigram: 7
+  bottomTrigram: 2
+  binary: '101000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 0
+  - 1
+- number: 36
+  names:
+  - Darkening of the Light
+  chineseName: 明夷
+  pinyinName: míng yí
+  character: "䷣"
+  topTrigram: 2
+  bottomTrigram: 7
+  binary: '000101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 0
+  - 0
+  - 0
+- number: 37
+  names:
+  - Dwelling People
+  - The Family [The Clan]
+  chineseName: 家人
+  pinyinName: jiā rén
+  character: "䷤"
+  topTrigram: 6
+  bottomTrigram: 7
+  binary: '110101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+- number: 38
+  names:
+  - Polarizing
+  - Opposition
+  chineseName: 睽
+  pinyinName: kuí
+  character: "䷥"
+  topTrigram: 7
+  bottomTrigram: 8
+  binary: '101011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1
+- number: 39
+  names:
+  - Limping
+  - Obstruction
+  chineseName: 蹇
+  pinyinName: jiǎn
+  character: "䷦"
+  topTrigram: 4
+  bottomTrigram: 5
+  binary: '010100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+- number: 40
+  names:
+  - Taking-Apart
+  - Deliverance
+  chineseName: 解
+  pinyinName: xiè
+  character: "䷧"
+  topTrigram: 3
+  bottomTrigram: 4
+  binary: '001010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+  - 0
+- number: 41
+  names:
+  - Diminishing
+  - Decrease
+  chineseName: 損
+  pinyinName: sǔn
+  character: "䷨"
+  topTrigram: 5
+  bottomTrigram: 8
+  binary: '100011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+- number: 42
+  names:
+  - Augmenting
+  - Increase
+  chineseName: 益
+  pinyinName: yì
+  character: "䷩"
+  topTrigram: 6
+  bottomTrigram: 3
+  binary: '110001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+- number: 43
+  names:
+  - Displacement
+  - Break-through (Resoluteness)
+  chineseName: 夬
+  pinyinName: guài
+  character: "䷪"
+  topTrigram: 8
+  bottomTrigram: 1
+  binary: '011111'
+  lines:
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+  - 0
+- number: 44
+  names:
+  - Coupling
+  - Coming to Meet
+  chineseName: 姤
+  pinyinName: gòu
+  character: "䷫"
+  topTrigram: 1
+  bottomTrigram: 6
+  binary: '111110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 1
+  - 1
+- number: 45
+  names:
+  - Clustering
+  - Gathering Together [Massing]
+  chineseName: 萃
+  pinyinName: cuì
+  character: "䷬"
+  topTrigram: 8
+  bottomTrigram: 2
+  binary: '011000'
+  lines:
+  - 0
+  - 0
+  - 0
+  - 1
+  - 1
+  - 0
+- number: 46
+  names:
+  - Ascending
+  - Pushing Upward
+  chineseName: 升
+  pinyinName: shēng
+  character: "䷭"
+  topTrigram: 2
+  bottomTrigram: 6
+  binary: '000110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 0
+  - 0
+  - 0
+- number: 47
+  names:
+  - Confining
+  - Oppression (Exhaustion)
+  chineseName: 困
+  pinyinName: kùn
+  character: "䷮"
+  topTrigram: 8
+  bottomTrigram: 4
+  binary: '011010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+- number: 48
+  names:
+  - Welling
+  - The Well
+  chineseName: 井
+  pinyinName: jǐng
+  character: "䷯"
+  topTrigram: 4
+  bottomTrigram: 6
+  binary: '010110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 0
+- number: 49
+  names:
+  - Skinning
+  - Revolution (Molting)
+  chineseName: 革
+  pinyinName: gé
+  character: "䷰"
+  topTrigram: 8
+  bottomTrigram: 7
+  binary: '011101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+- number: 50
+  names:
+  - Holding
+  - The Caldron
+  chineseName: 鼎
+  pinyinName: dǐng
+  character: "䷱"
+  topTrigram: 7
+  bottomTrigram: 6
+  binary: '101110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 1
+  - 0
+  - 1
+- number: 51
+  names:
+  - Shake
+  - The Arousing (Shock, Thunder)
+  chineseName: 震
+  pinyinName: zhèn
+  character: "䷲"
+  topTrigram: 3
+  bottomTrigram: 3
+  binary: '001001'
+  lines:
+  - 1
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+- number: 52
+  names:
+  - Bound
+  - Keeping Still, Mountain
+  chineseName: 艮
+  pinyinName: gèn
+  character: "䷳"
+  topTrigram: 5
+  bottomTrigram: 5
+  binary: '100100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 0
+  - 1
+- number: 53
+  names:
+  - Infiltrating
+  - Development (Gradual Progress)
+  chineseName: 漸
+  pinyinName: jiàn
+  character: "䷴"
+  topTrigram: 6
+  bottomTrigram: 5
+  binary: '110100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 0
+  - 1
+  - 1
+- number: 54
+  names:
+  - Converting the Maiden
+  - The Marrying Maiden
+  chineseName: 歸妹
+  pinyinName: guī mèi
+  character: "䷵"
+  topTrigram: 3
+  bottomTrigram: 8
+  binary: '001011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 1
+  - 0
+  - 0
+- number: 55
+  names:
+  - Abouding
+  - Abundance [Fullness]
+  chineseName: 豐
+  pinyinName: fēng
+  character: "䷶"
+  topTrigram: 3
+  bottomTrigram: 7
+  binary: '001101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+  - 0
+- number: 56
+  names:
+  - Sojourning
+  - The Wanderer
+  chineseName: 旅
+  pinyinName: lǚ
+  character: "䷷"
+  topTrigram: 7
+  bottomTrigram: 5
+  binary: '101100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+- number: 57
+  names:
+  - Ground
+  - The Gentle (The Penetrating, Wind)
+  chineseName: 巽
+  pinyinName: xùn
+  character: "䷸"
+  topTrigram: 6
+  bottomTrigram: 6
+  binary: '110110'
+  lines:
+  - 0
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+- number: 58
+  names:
+  - Open
+  - The Joyous, Lake
+  chineseName: 兌
+  pinyinName: duì
+  character: "䷹"
+  topTrigram: 8
+  bottomTrigram: 8
+  binary: '011011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 1
+  - 1
+  - 0
+- number: 59
+  names:
+  - Dispersing
+  - Dispersion [Dissolution]
+  chineseName: 渙
+  pinyinName: huàn
+  character: "䷺"
+  topTrigram: 6
+  bottomTrigram: 4
+  binary: '110010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 0
+  - 1
+  - 1
+- number: 60
+  names:
+  - Articulating
+  - Limitation
+  chineseName: 節
+  pinyinName: jié
+  character: "䷻"
+  topTrigram: 4
+  bottomTrigram: 8
+  binary: '010011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 1
+  - 0
+- number: 61
+  names:
+  - Center Returing
+  - Inner Truth
+  chineseName: 中孚
+  pinyinName: zhōng fú
+  character: "䷼"
+  topTrigram: 6
+  bottomTrigram: 8
+  binary: '110011'
+  lines:
+  - 1
+  - 1
+  - 0
+  - 0
+  - 1
+  - 1
+- number: 62
+  names:
+  - Small Exceeding
+  - Preponderance of the Small
+  chineseName: 小過
+  pinyinName: xiǎo guò
+  character: "䷽"
+  topTrigram: 3
+  bottomTrigram: 5
+  binary: '001100'
+  lines:
+  - 0
+  - 0
+  - 1
+  - 1
+  - 0
+  - 0
+- number: 63
+  names:
+  - Already Fording
+  - After Completion
+  chineseName: 既濟
+  pinyinName: jì jì
+  character: "䷾"
+  topTrigram: 4
+  bottomTrigram: 7
+  binary: '010101'
+  lines:
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+- number: 64
+  names:
+  - Not Yet Fording
+  - Before Completion
+  chineseName: 未濟
+  pinyinName: wèi jì
+  character: "䷿"
+  topTrigram: 7
+  bottomTrigram: 4
+  binary: '101010'
+  lines:
+  - 0
+  - 1
+  - 0
+  - 1
+  - 0
+  - 1

@@ -1,0 +1,48 @@
+db_item_def:
+- name: "mechanical guts"
+  description: "if you need instincts or gumption, these may do it for ya."
+  quality: 1000
+  bonuses:
+  # bonus = (quality * bounus) / 1000
+  - automation: 1
+  - energy: 1.5
+  - vibration: 1
+- name: "heart shaped box"
+  description: "one way to capture someone's heart..."
+  abilities:
+  - name: "the_fastest_way"
+  requires:
+  - automation
+  - energy
+  - vibration
+  - navigation
+  - environment
+- name: "calculator watch"
+  description: "more than just a smart watch, it tells time."
+  abilities:
+  - name: "the_fastest_way"
+  requires:
+  - automation
+  - energy
+  - vibration
+  - navigation
+  - environment
+- name: "spirit shaper"
+  image: "spirit_shaper"
+  description: "tame irregularity, or get turnt"
+  abilities:
+  - name: "pump_up_the_volume"
+  - name: "check_its_vibe"  
+  requires:
+    - connection
+    - energy
+    - vibration
+    - automation
+- name: "make_shift_energy_collector":
+  image: "mechanical_collector":
+  description: "the play function is broken, but record seems to work..."
+  abilities:
+  - name: "i_accept_your_tribute"
+  requires:
+    - vibration
+    - automation

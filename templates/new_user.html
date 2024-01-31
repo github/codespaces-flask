@@ -1,0 +1,26 @@
+<head>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
+
+<body>
+    <div class="App">
+        <form class="grid">
+            <div class="cell">
+                <h1>Register</h1>
+                <p>Already have an account? <a href="/login">Login</a></p>
+                <p>You will be seen as; firstname-lastname (ex: billybob-jojack)</p>
+            </div>
+                <label for="first_name">first name</label>
+                <input type="text" id="first_name" name="first_name" placeholder="billybob">
+                <label for="last_name">last name</label>
+                <input type="text" id="last_name" name="last_name" placeholder="jojack">
+                <div class="cell">           
+                    <p>Scan the QR code with your authenticator app</p>
+                    <img src="data:image/png;base64,{{qr_encoded}}" alt="QR Code">
+                    <p>or set it up manually;</p>
+                    <code>{{secret_key}}</code>
+                </div>
+    </div>
+</body>
+
+</html>

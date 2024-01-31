@@ -1,0 +1,29 @@
+db_part_def:
+- type: "heart"
+  bonuses:
+    connection: 8
+    communication: 8
+  abilities:
+  - name: "the_fastest_way"
+  - name: "what_we_got_here"
+- type: "mind"
+  bonuses:
+    navigation: 8
+    automation: 8
+  abilities:
+  - name: "get_there_from_here"
+- type: "spirit"
+  bonuses:
+    energy: 8
+    vibration: 8
+  abilities:
+  - name: "pump_up_the_volume"
+  - name: "check_its_vibe"
+  - name: "i_accept_your_tribute"  
+- type: "soul"
+  bonuses:
+    environment: 8
+    perception: 8
+  abilities:
+  - name: "get_there_from_here"
+  - name: "what_we_got_here"
