@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>API Settings</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+</head>
+<body>
+    <div class="App">
+        <header class="App-header">
+            <h1>API Settings</h1>
+            <form action="/save_settings" method="post" style="display: flex; flex-direction: column; gap: 10px; text-align: left; width: 300px;">
+                <div>
+                    <label for="openai_key">OpenAI API Key:</label>
+                    <input type="password" id="openai_key" name="openai_key" value="{{ settings.openai_key if settings else '' }}">
+                </div>
+                <div>
+                    <label for="gemini_key">Gemini API Key:</label>
+                    <input type="password" id="gemini_key" name="gemini_key" value="{{ settings.gemini_key if settings else '' }}">
+                </div>
+                <div>
+                    <label for="anthropic_key">Anthropic API Key:</label>
+                    <input type="password" id="anthropic_key" name="anthropic_key" value="{{ settings.anthropic_key if settings else '' }}">
+                </div>
+                <button type="submit" style="padding: 10px; cursor: pointer;">Save Settings</button>
+            </form>
+            <p><a href="/" style="color: #61dafb;">Back to Home</a></p>
+        </header>
+    </div>
+</body>
+</html>
