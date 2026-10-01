@@ -1,5 +1,8 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Python Dev",
+
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.13-bookworm",
+
   "hostRequirements": {
     "cpus": 4
   },
@@ -29,3 +32,4 @@
   },
   "forwardPorts": [5000]
 }
+
